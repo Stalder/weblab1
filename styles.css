@@ -36,8 +36,11 @@ h1, h2, h3 {
 header {
     background-color: #111111;
     height: 100px;
+    width: 960px;
+    margin: 0px auto;
     padding: 16;
     padding-bottom: 0px;
+    box-sizing: border-box
 }
 
 .logo {
@@ -166,6 +169,7 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 480px;
     }
 
     ul {
@@ -192,6 +196,13 @@ main {
 }
 
 @media screen and (max-width: 480px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
     .block-wrapper {
         background-color: black;
         width: 100%;
