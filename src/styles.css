@@ -5,7 +5,7 @@ body, html {
 }
 
 nav {
-    background-color: #111111
+    background-color: #080808
 }
 
 ul {
@@ -35,6 +35,10 @@ h2 {
     color: white
 }
 
+h3 {
+    color: white
+}
+
 header {
     background-color: #111111;
     height: 100px;
@@ -48,35 +52,56 @@ header {
 }
 
 .block-wrapper {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: black;
     height: 400;
     width: 960px;
     margin: 0 auto
 }
 
+.block {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.block-bg-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5
+}
+
 .first-block {
-    background-color: aqua;
     height: 100%;
     width: 50%;
     float: left;
 }
 .second-block {
-    background-color: coral;
     height: 50%;
     width: 50%;
     float: left
 }
 .third-block {
-    background-color: cadetblue;
     height: 50%;
     width: 25%;
     float: left
 }
 .forth-block {
-    background-color: orange;
     height: 50%;
     width: 25%;
     float: left
+}
+
+.block-title {
+    z-index: 1;
+    margin: 0 16;
+}
+
+.block-description {
+    z-index: 1;
+    margin: 0 16 16 16;
 }
 
 .main-wrapper {
