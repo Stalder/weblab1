@@ -1,5 +1,94 @@
-.title {
-    color: red;
-    margin: 20;
-    font-size: 20;
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: #222222;
+}
+
+p {
+    margin: 0;
+    color: white
+}
+
+h1 {
+    color: white
+}
+
+h2 {
+    color: white
+}
+
+header {
+    background-color: #111111;
+    height: 100px;
+    padding: 16;
+    padding-bottom: 0px;
+}
+
+.logo {
+    height: 100%;
+    /* background-color: pink; */
+}
+
+.block-wrapper {
+    background-color: rgba(255, 255, 255, 0.85);
+    height: 400;
+    width: 900px;
+    margin: auto
+}
+
+.first-block {
+    background-color: aqua;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.second-block {
+    background-color: coral;
+    height: 50%;
+    width: 50%;
+    float: left
+}
+.third-block {
+    background-color: cadetblue;
+    height: 50%;
+    width: 25%;
+    float: left
+}
+.forth-block {
+    background-color: orange;
+    height: 50%;
+    width: 25%;
+    float: left
+}
+
+.tours {
+    padding: 8 16 8 16;
+    background-color: #111111;
+    margin: 0
+}
+
+.tours-text {
+    color: white;
+    font-size: 32;
+}
+
+.main-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex: 1
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: -200;
+    width: 200px;
+}
+
+main {
+    flex: 1;
+    background-color: red;
+    background-color: #111111;
+    padding: 0 16 0 16
 }
