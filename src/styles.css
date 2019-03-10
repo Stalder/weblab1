@@ -2,6 +2,7 @@ body, html {
     padding: 0;
     margin: 0;
     background-color: #222222;
+    font-family: Helvetica
 }
 
 nav {
@@ -101,7 +102,7 @@ header {
 
 .block-description {
     z-index: 1;
-    margin: 0 16 16 16;
+    margin: 0 16 24 16;
 }
 
 .main-wrapper {
@@ -116,4 +117,27 @@ main {
     background-color: red;
     background-color: #111111;
     padding: 0 16 16 16
+}
+
+.title {
+    font-size: 36
+}
+
+.subtitle {
+    font-size: 32
+}
+
+.text-col {
+    width: 48%;
+    float: left
+}
+
+.second-col {
+    float: right
+}
+
+.plain-text {
+    line-height: 22px;
+    font-size: 14;
+    text-align: justify
 }
